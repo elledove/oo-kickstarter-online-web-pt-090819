@@ -3,7 +3,8 @@ class Backer
   
   def initialize()
     @name = name
-    
+    @email_address
+    @
     
   end
   
