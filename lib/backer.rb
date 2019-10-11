@@ -1,14 +1,8 @@
 class Backer 
-  attr_reader :name, :email_address, :address
-  attr_accessor :favorite_foods
+  attr_reader :name
   
-  def initialize(name, email_address, address)
+  def initialize(name)
     @name = name
-    @email_address = email_address
-    @address = address
-    @favorite_foods = []
-    @store_id = "#{address}12"
-    
   end
   
 end
